@@ -1,20 +1,20 @@
 import firebase from 'firebase';
 
 var devConfig = {
-    apiKey: "XXXXXXXXXXXXXXXXXXXXXXXX",
-    authDomain: "XXXXXXXXXXXXXXXXXXXXXXXX",
-    databaseURL: "XXXXXXXXXXXXXXXXXXXXXXXXX",
-    projectId: "XXXXXXXXXXXXXX",
-    storageBucket: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXXX"
+    apiKey: "AIzaSyCb_xRoBDfJSjYlVmR6UpsMSSGRCAKNHak",
+    authDomain: "blog-seif.firebaseapp.com",
+    databaseURL: "https://blog-seif.firebaseio.com",
+    projectId: "blog-seif",
+    storageBucket: "blog-seif.appspot.com",
+    messagingSenderId: "697741093793"
   };
   var prodConfig = {
-    apiKey: "XXXXXXXXXXXXXXXXXXXXXXXX",
-    authDomain: "XXXXXXXXXXXXXXXXXXXXXXXX",
-    databaseURL: "XXXXXXXXXXXXXXXXXXXXXXXXX",
-    projectId: "XXXXXXXXXXXXXX",
-    storageBucket: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXXX"
+    apiKey: "AIzaSyDwco9QAZWKhL897kaykSS77eOsAer30qc",
+    authDomain: "react-auth-prod-e5f9b.firebaseapp.com",
+    databaseURL: "https://react-auth-prod-e5f9b.firebaseio.com",
+    projectId: "react-auth-prod-e5f9b",
+    storageBucket: "react-auth-prod-e5f9b.appspot.com",
+    messagingSenderId: "605853115313"
   };
   const config = process.env.NODE_ENV === 'production'
   ? prodConfig
